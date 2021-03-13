@@ -14,7 +14,7 @@ On The Back-End:
 This was an assignment from my university back in the summer of 2020. I was forbidden from using any external libraries (such as Bootstrap). If I had complete freedom, this app would have been designed differently.
 
 # Deployment
-You may use docker-compose to test this app. If you have docker-compose install then simply run:
+You may use docker-compose to test this app. If you have docker-compose installed, then simply run:
 ```bash
 docker-compose up -d
 ```
