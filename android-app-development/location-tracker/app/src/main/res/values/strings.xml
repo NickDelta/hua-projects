@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyLocationTracker</string>
+    <string name="welcome_header">Instructions:</string>
+    <string name="welcome_message">By toggling the emulator\'s charger connection, you may start or stop the location service</string>
+</resources>

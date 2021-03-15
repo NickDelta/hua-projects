@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id:">
+        </TextView>
+
+        <TextView
+            android:id="@+id/editTextUserLocationItemId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Id:">
+        </TextView>
+
+        <TextView
+            android:id="@+id/editTextUserLocationItemUserId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Longitude:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/editTextUserLocationItemLongitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Latitude:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/editTextUserLocationItemLatitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Timestamp:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/editTextUserLocationItemTimestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></TextView>
+    </TableRow>
+
+
+
+</android.widget.TableLayout>
